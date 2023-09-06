@@ -1,0 +1,12 @@
+main{
+    scroll-behavior: smooth;
+}
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    
+    color: red; /* Promenite boju teksta prema vašim željama */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Dodajemo senku kartici */
+    transition: color 0.3s ease, 0.3s ease; /* Dodajemo efekte tranzicije za glatke promene */
+}
+
